@@ -4,7 +4,7 @@ public class Pokerito {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        /*Task 2: Explain the rules
+        /* Explain the rules
 
         >>Let's play Pokerito. Type anything when you're ready.
         |
@@ -27,7 +27,7 @@ public class Pokerito {
         scan.next();
         
 
-        /*Task 3: Present the user with a card
+        /*Present the user with a card
          println 'Here's your card:'
          <show card>
          <new line>
@@ -45,7 +45,7 @@ public class Pokerito {
         String computerCard = randomCard();
         System.out.println(computerCard);
 
-        /** Task 4 - Draw five cards
+        /** Draw five cards
          * 
          * • print:  Now, the dealer will draw five cards. Press enter to continue.
          * • The dealer will draw a card every time the user presses enter.
@@ -76,7 +76,7 @@ public class Pokerito {
 
 
 
-        /** Task 5 - Get the winner
+        /** Get the winner
          * 
          * • Count your number of matches.
          * • Count the computer's number of matches.
@@ -103,7 +103,7 @@ public class Pokerito {
          scan.close();
     }
 
-    /** Task 1
+    /** 
      * 
      * Function name – randomCard
      * @return (String)
